@@ -532,3 +532,73 @@ footer h3 {
     }
 
 }
+@media (max-width: 768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .navbar{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .menu{
+        flex-direction:column;
+        gap:15px;
+        padding:0;
+    }
+
+    .hero{
+        height:auto;
+        padding:100px 20px;
+    }
+
+    .hero-content{
+        width:100%;
+    }
+
+    .hero-content h1{
+        font-size:35px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .search-box{
+        width:100%;
+        flex-direction:column;
+    }
+
+    .search-box input,
+    .search-box button{
+        width:100%;
+        border-radius:10px;
+        margin-top:10px;
+    }
+
+    .cards{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .stats{
+        flex-direction:column;
+    }
+
+    .about-boxes{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .contact-box{
+        flex-direction:column;
+        align-items:center;
+    }
+
+}
